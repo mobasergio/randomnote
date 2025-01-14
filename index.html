@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Note</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Note</h1>
+        <div id="note">--</div>
+        <div class="controls">
+            <button id="startStopBtn">Start</button>
+            <div class="slider-container" id="sliderContainer">
+                <span class="slider-label">Interval:</span>
+                <input type="range" id="intervalSlider" min="1.5" max="5" step="0.5" value="1.5">
+                <span id="intervalValue">1.5</span>s
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
