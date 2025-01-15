@@ -22,6 +22,7 @@ function updateNote() {
 
 function speak(text) {
     const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "es-ES";
     window.speechSynthesis.speak(utterance);
 }
 
